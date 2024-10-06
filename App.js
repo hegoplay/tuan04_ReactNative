@@ -16,7 +16,7 @@ export default function App() {
       <StatusBar style="auto" />
       <UserContextProvider>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="Screen04">
+          <Stack.Navigator initialRouteName="Screen01">
             <Stack.Screen name="Screen01" component={Screen01} />
             <Stack.Screen name="Screen02" component={Screen02} />
             <Stack.Screen name="Screen03" component={Screen03} />
